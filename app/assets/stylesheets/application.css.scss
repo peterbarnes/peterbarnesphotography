@@ -18,6 +18,13 @@ $blue: #3498db;
 $gray: #2e2e2e;
 $bg: #f2f2f2;
 
+/* MEDIA QUERIES */
+@media all and (max-width: 989px) {
+  .brand h4 {
+    text-align: center;
+  }
+}
+
 /* GLOBAL STYLES */
 * {
   font-family: 'Raleway';
@@ -39,6 +46,7 @@ a {
 
 .navigation {
   background-color: $gray;
+  min-height: 54px;
   .navlink {
     color: white;
     &:hover {
