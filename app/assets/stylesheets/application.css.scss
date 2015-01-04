@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/* VARIABLES */
+$blue: #3498db;
+$gray: #2e2e2e;
+$bg: #f2f2f2;
+
+/* GLOBAL STYLES */
+* {
+  font-family: 'Raleway';
+  color: white;
+  font-weight: 100 !important;
+}
+
+body {
+  background-color: $bg;
+}
+
+a {
+  color: $blue;
+  &:hover {
+    color: darken($blue, 20%);
+    text-decoration: none;
+  }
+}
+
+.navigation {
+  background-color: $gray;
+  .navlink {
+    color: white;
+    &:hover {
+      color: $blue;
+    }
+  }
+  .navlink h4{
+    margin-top: 17px;
+  }
+  .brand h4 {
+    margin-bottom: 9px;
+    margin-top: 7px;
+  }
+}
