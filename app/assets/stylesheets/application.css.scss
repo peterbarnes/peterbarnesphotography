@@ -23,12 +23,15 @@ $bg: #f2f2f2;
   .brand h4 {
     text-align: center;
   }
+  .big-top {
+    margin-top: 25px !important;
+  }
 }
 
 /* GLOBAL STYLES */
 * {
-  font-family: 'Raleway';
-  color: white;
+  font-family: "Raleway" !important;
+  color: $gray;
   font-weight: 200 !important;
 }
 
@@ -60,4 +63,15 @@ a {
     margin-bottom: 9px;
     margin-top: 7px;
   }
+}
+
+/* UTILITIES */
+.big-top {
+  margin-top: 250px;
+}
+
+/* BOOTSTRAP OVERRIDES */
+hr {
+  border: 1 !important;
+  border-top: 1px solid $gray;
 }
