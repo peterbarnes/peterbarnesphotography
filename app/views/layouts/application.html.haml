@@ -9,8 +9,8 @@
     %script{ src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" }
     = csrf_meta_tags
   %body
+    = render 'layouts/header'
     .container-fluid
-      = render 'layouts/header'
       .row
         .col-md-12
           = yield

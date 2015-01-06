@@ -1,18 +1,22 @@
-.row.navigation
-  .col-md-2.brand
-    %a{ href: '/' }
-      %h4 
-        Peter Barnes 
+%nav.navbar-fixed.navbar-inverse
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{ type: "button", data: { toggle: "collapse", target: ".navbar-collapse" } }
+        %span.sr-only Toggle Navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{ href: "/" }
+        Peter Barnes
         %br Photography
-  .col-md-2
-    %a.navlink{ href: '/landscape' }
-      %h4.text-center Landscape
-  .col-md-2
-    %a.navlink{ href: '/events' }
-      %h4.text-center Events
-  .col-md-2
-    %a.navlink{ href: '/video' }
-      %h4.text-center Video
-  .col-md-2
-    %a.navlink{ href: '/contact' }
-      %h4.text-center Contact
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a.navlink{ href: "/landscape" } Landscape
+        %li
+          %a.navlink{ href: "/events" } Events
+        %li
+          %a.navlink{ href: "/video" } Video
+        %li
+          %a.navlink{ href: "/contact" } Contact
