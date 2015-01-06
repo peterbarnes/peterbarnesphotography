@@ -19,13 +19,7 @@ $gray: #2e2e2e;
 $bg: #f2f2f2;
 
 /* MEDIA QUERIES */
-@media all and (max-width: 989px) {
-  .brand h4 {
-    text-align: center;
-  }
-  .big-top {
-    margin-top: 25px !important;
-  }
+@media all and (max-width: 764px) {
   .navbar-brand {
     margin-left: 15px !important;
   }
@@ -81,6 +75,12 @@ a, i {
 }
 .navbar-collapse {
   padding-right: 0px !important;
+}
+
+.navbar-collapse.collapse.in, .navbar-collapse.collapsing {
+  .nav.navbar-nav.navbar-right {
+    margin-left: 15px !important;
+  }
 }
 
 hr {
