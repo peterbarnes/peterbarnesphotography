@@ -18,8 +18,4 @@ class StaticController < ApplicationController
   def video
     
   end
-
-  def contact
-    
-  end
 end

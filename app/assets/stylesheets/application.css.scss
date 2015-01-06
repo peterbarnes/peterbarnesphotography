@@ -38,11 +38,15 @@ $bg: #f2f2f2;
   font-weight: 200 !important;
 }
 
+.fa {
+  font-family: FontAwesome !important;
+}
+
 body {
   background-color: $bg;
 }
 
-a {
+a, i {
   color: $blue !important;
   &:hover {
     color: darken($blue, 20%) !important;
@@ -61,6 +65,10 @@ a {
   }
 }
 
+.soc-links {
+  letter-spacing: 5px;
+}
+
 /* UTILITIES */
 .big-top {
   margin-top: 250px;
@@ -73,4 +81,14 @@ a {
 }
 .navbar-collapse {
   padding-right: 0px !important;
+}
+
+hr {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+ul {
+  list-style: none !important;
+  display: inline-block !important;
 }
