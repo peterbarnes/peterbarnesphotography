@@ -15,6 +15,10 @@ class StaticController < ApplicationController
     
   end
 
+  def alternative
+    
+  end
+
   def video
     
   end
