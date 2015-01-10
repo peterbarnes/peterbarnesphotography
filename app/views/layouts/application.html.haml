@@ -12,12 +12,23 @@
     %link{ href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css", rel: "stylesheet" }
     %link{ href: "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel: "stylesheet" }
     %link{ href: "http://fonts.googleapis.com/css?family=Raleway:400,200", rel: "stylesheet" }
+    %link{ href: "/source/jquery.fancybox.css", rel: "stylesheet" }
+    %link{ href: "/source/helpers/jquery.fancybox-buttons.css", rel: "stylesheet" }
+    %link{ href: "/source/helpers/jquery.fancybox-thumbs.css", rel: "stylesheet" }
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
     %script{ src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" }
+    %script{ src: "/source/jquery.fancybox.pack.js" }
+    %script{ src: "/source/helpers/jquery.fancybox-media.js" }
+    %script{ src: "/source/helpers/jquery.fancybox-buttons.js" }
+    %script{ src: "/source/helpers/jquery.fancybox-thumbs.js" }
     = csrf_meta_tags
   %body
     = render 'layouts/header'
     = yield
     =render 'layouts/footer'
+    :javascript
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
     

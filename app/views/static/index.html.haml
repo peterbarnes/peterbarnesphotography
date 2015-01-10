@@ -1,2 +1,12 @@
-=image_tag('landscape.JPG', width: '100%', class: 'img-responsive center-block bottom')
-=image_tag('guitar.JPG', width: '100%', class: 'img-responsive center-block')
+.container-fluid.grid
+  .row.grid
+    .col-md-12
+      %a.fancybox{ rel: 'group', href: '/images/landscape_trees.JPG' }
+        =image_tag('landscape_trees.JPG', class: 'img-responsive bottom', width: '100%')
+      %a.fancybox{ rel: 'group', href: '/images/alternative_guitar.JPG' }
+        =image_tag('alternative_guitar.JPG', class: 'img-responsive bottom', width: '100%')
+      %a.fancybox{ rel: 'group', href: '/images/alternative_piano.jpg' }
+        =image_tag('alternative_piano.jpg', class: 'img-responsive bottom', width: '100%')
+      %a.fancybox{ rel: 'group', href: '/images/alternative_watch.jpg' }
+        =image_tag('alternative_watch.jpg', class: 'img-responsive bottom', width: '100%')
+

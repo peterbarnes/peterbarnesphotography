@@ -90,7 +90,23 @@ a, i {
 }
 
 .bottom {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.top {
+  padding-top: 10px;
+}
+
+.left {
+  padding-left: 10px;
+}
+
+.right {
+  padding-right: 10px;
+}
+
+.grid {
+  padding: 0px !important;
 }
 
 hr {
