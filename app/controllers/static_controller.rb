@@ -11,7 +11,7 @@ class StaticController < ApplicationController
     
   end
 
-  def event
+  def music
     
   end
 
@@ -20,6 +20,10 @@ class StaticController < ApplicationController
   end
 
   def video
+    
+  end
+
+  def pricing
     
   end
 end
