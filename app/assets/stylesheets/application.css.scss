@@ -79,6 +79,10 @@ a, i {
   padding-top: 4px !important;
 }
 
+.row {
+  margin: 0px !important;
+}
+
 .navbar-collapse {
   padding-right: 0px !important;
 }
@@ -88,6 +92,10 @@ a, i {
     margin-left: 15px !important;
   }
   background-color: white !important;
+}
+
+.container-fluid {
+  width: 100% !important;
 }
 
 .bottom {
@@ -110,13 +118,36 @@ a, i {
   padding: 0px !important;
 }
 
+.pad-right {
+  padding-right: 5px !important;
+}
+
+.pad-left {
+  padding-left: 5px !important;
+}
+
 .price {
   border-left: 1px solid $gray;
+}
+
+.no-bottom {
+  margin-bottom: 0px !important;
 }
 
 hr {
   margin-top: 5px !important;
   margin-bottom: 5px !important;
+}
+
+.addon {
+  color: $gray !important;
+  &:hover {
+    color: $gray !important;
+  }
+}
+
+.price-split {
+  border-top: 1px solid $gray;
 }
 
 .icon-bar {
