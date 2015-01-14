@@ -153,3 +153,17 @@ hr {
 .icon-bar {
   background-color: $blue !important;
 }
+
+@media all and (max-width: 982px) {
+  .right {
+    padding-right: 0px !important;
+  }
+
+  .pad-right {
+    padding-right: 0px !important;
+  }
+
+  .pad-left {
+    padding-left: 0px !important;
+  }
+}
