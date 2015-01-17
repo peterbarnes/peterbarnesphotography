@@ -1,0 +1,234 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* VARIABLES */
+/* MEDIA QUERIES */
+@media all and (max-width: 764px) {
+  /* line 24, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+  .navbar-brand {
+    margin-left: 15px !important;
+  }
+}
+/* GLOBAL STYLES */
+/* line 30, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+* {
+  font-family: "Raleway" !important;
+  color: #2e2e2e !important;
+  font-weight: 200 !important;
+}
+
+/* line 36, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.fa {
+  font-family: FontAwesome !important;
+}
+
+/* line 40, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+body {
+  margin-top: 50px;
+  background-color: #ffffff;
+  height: 100%;
+  padding-bottom: 33px;
+}
+
+/* line 47, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+a, i {
+  color: #26B7FF !important;
+  transition: color 175ms ease-out;
+}
+/* line 49, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+a:hover, i:hover {
+  color: #0080bf !important;
+  text-decoration: none;
+}
+
+/* line 56, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-fixed-top {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 0px !important;
+}
+/* line 59, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-fixed-top .navlink {
+  font-weight: 400 !important;
+  color: #2e2e2e !important;
+  font-size: 18px !important;
+}
+/* line 62, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-fixed-top .navlink:hover {
+  color: #26B7FF !important;
+}
+
+/* line 69, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.soc-links {
+  letter-spacing: 5px;
+  margin-bottom: 4px !important;
+  text-align: right;
+}
+
+/* UTILITIES */
+/* line 76, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.big-top {
+  margin-top: 250px;
+}
+
+/* BOOTSTRAP OVERRIDES */
+/* line 81, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-brand {
+  font-weight: 400 !important;
+  padding: 0px !important;
+  padding-top: 4px !important;
+}
+
+/* line 87, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+nav.navbar.navbar-default.navbar-fixed-bottom.footer {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0px !important;
+  min-height: 10px !important;
+  border-top: 0px !important;
+}
+/* line 92, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+nav.navbar.navbar-default.navbar-fixed-bottom.footer .container-fluid {
+  padding-top: 5px !important;
+}
+
+/* line 97, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.row {
+  margin: 0px !important;
+}
+
+/* line 101, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-collapse {
+  padding-right: 0px !important;
+}
+
+/* line 105, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-collapse.collapse.in, .navbar-collapse.collapsing {
+  background-color: white !important;
+}
+/* line 106, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.navbar-collapse.collapse.in .nav.navbar-nav.navbar-right, .navbar-collapse.collapsing .nav.navbar-nav.navbar-right {
+  margin-left: 15px !important;
+}
+
+/* line 112, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.container-fluid {
+  width: 100% !important;
+}
+
+/* line 116, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.bottom {
+  padding-bottom: 4px;
+}
+
+/* line 120, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.top {
+  padding-top: 4px;
+}
+
+/* line 124, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.left {
+  padding-left: 4px;
+}
+
+/* line 128, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.right {
+  padding-right: 4px;
+}
+
+/* line 132, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.grid {
+  padding: 0px !important;
+}
+
+/* line 136, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.pad-right {
+  padding-right: 2px !important;
+}
+
+/* line 140, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.pad-left {
+  padding-left: 2px !important;
+}
+
+/* line 144, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.price {
+  border-left: 1px solid #2e2e2e;
+}
+
+/* line 148, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.no-bottom {
+  margin-bottom: 0px !important;
+}
+
+/* line 152, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+hr {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+/* line 157, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.addon {
+  color: #2e2e2e !important;
+}
+/* line 159, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.addon:hover {
+  color: #2e2e2e !important;
+}
+
+/* line 164, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.price-split {
+  border-top: 1px solid #2e2e2e;
+}
+
+/* line 168, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.icon-bar {
+  background-color: #26B7FF !important;
+}
+
+@media all and (max-width: 982px) {
+  /* line 173, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+  .right {
+    padding-right: 0px !important;
+  }
+
+  /* line 177, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+  .pad-right {
+    padding-right: 0px !important;
+  }
+
+  /* line 181, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+  .pad-left {
+    padding-left: 0px !important;
+  }
+
+  /* line 184, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+  .soc-links {
+    text-align: center !important;
+  }
+
+  /* line 187, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+  .hide-at-small {
+    display: none;
+  }
+}
+/* line 192, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.squeeze {
+  max-width: 1920px !important;
+}
+
+/* line 196, /Users/peterbarnes/website/peterbarnesphotography/app/assets/stylesheets/application.css.scss */
+.small {
+  margin-bottom: 0px !important;
+  margin-top: 5px !important;
+}
