@@ -23,9 +23,6 @@ $bg: #ffffff;
   .navbar-brand {
     margin-left: 15px !important;
   }
-  .hide-at-small {
-    display: none;
-  }
 }
 
 /* GLOBAL STYLES */
@@ -183,8 +180,11 @@ hr {
   .pad-left {
     padding-left: 0px !important;
   }
- .soc-link {
+ .soc-links {
     text-align: center !important;
+  }
+  .hide-at-small {
+    display: none;
   }
 }
 
