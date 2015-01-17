@@ -71,6 +71,7 @@ a, i {
 .soc-links {
   letter-spacing: 5px;
   margin-bottom: 4px !important;
+  text-align: right;
 }
 
 /* UTILITIES */
@@ -181,6 +182,9 @@ hr {
 
   .pad-left {
     padding-left: 0px !important;
+  }
+ .soc-link {
+    text-align: center !important;
   }
 }
 
