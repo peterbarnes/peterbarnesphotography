@@ -1,3 +1,16 @@
 // Place all the styles related to the static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+nav.navbar.navbar-default.navbar-fixed-bottom.footer {
+  background-color: transparent !important;
+  padding: 0px !important;
+  min-height: 10px !important;
+  border-top: 0px !important;
+  .container-fluid {
+    padding-top: 0px !important;
+  }
+}
+
+body {
+  padding-bottom: 51px !important;
+}
